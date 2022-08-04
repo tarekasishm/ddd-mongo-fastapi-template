@@ -9,7 +9,6 @@ tags_metadata: List[Dict[str, Any]] = [
 ]
 
 
-
 app = FastAPI(
     title="API Template",
     openapi_url=f"{API_V}/openapi.json",
